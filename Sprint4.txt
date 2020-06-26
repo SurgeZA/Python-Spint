@@ -1,0 +1,26 @@
+print ("Select an Task to perform: ")
+print("1. Add")
+print("2. Subtract")
+print("3. Multiply")
+print("4. Divide")
+
+task = input()
+
+if task == "1": #Add
+   num1 = input("Enter first number: ")
+   num2 = input("Enter second number: ")
+   print ("Your answer is " + str(int(num1) + int(num2))) #Add intergers together then convert it back to string
+elif task == "2":
+   num1 = input("Enter first number: ")
+   num2 = input("Enter second number: ")
+   print ("Your answer is " + str(int(num1) - int(num2)))
+elif task == "3":
+   num1 = input("Enter first number: ")
+   num2 = input("Enter second number: ")
+   print ("Your answer is " + str(int(num1) * int(num2)))
+elif task == "4":
+   num1 = input("Enter first number: ")
+   num2 = input("Enter second number: ")
+   print ("Your answer is " + str(int(num1) / int(num2)))
+else :
+    print("Invalid")
